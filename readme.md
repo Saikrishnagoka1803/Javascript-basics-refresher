@@ -114,6 +114,147 @@ addToCart, updatePaymentInfo, completeTransaction, TransactionStatus
 promise chaining
 async await all done.
 
+useStrict explanation:
+Currying and use cases
 
+closures
+call stack
+execution context
+event loop
+promises
+async/await
+prototype chain
+this
+currying
+HOFs
+debounce/throttle
+map/filter/reduce
+pure functions
+memory management
+shallow vs deep copy
+Browser powers 
 
+This phase is VERY important for frontend interviews.
+
+Problems Practice:
+
+Best platforms for you
+For JavaScript-specific practice
+Frontend Mentor
+Best for real frontend logic.
+JavaScript.info
+Probably the best JS theory site.
+LeetCode
+Good for problem patterns.
+
+Do:
+Easy
+Medium
+Avoid getting stuck on Hard initially.
+BigFrontend.dev
+Excellent for frontend interview coding.
+Especially:
+debounce
+throttle
+promise
+event emitter
+
+Phase 2 — Build problem-solving patterns
+
+This is where coding skill becomes strong.
+
+Do NOT directly jump to hard LeetCode.
+
+Instead master patterns.
+
+Most important patterns
+Arrays & Strings
+
+Practice:
+
+two sum
+reverse string
+move zeroes
+max subarray
+merge intervals
+
+Learn:
+
+two pointers
+sliding window
+prefix sum
+Objects / HashMaps
+
+Practice:
+
+frequency counter
+duplicates
+grouping
+anagrams
+Recursion
+
+VERY important for JS thinking.
+
+Practice:
+
+factorial
+fibonacci
+flatten array
+nested object traversal
+Stack / Queue
+
+Practice:
+
+balanced parentheses
+monotonic stack
+browser history
+Async JS problems
+
+Since you're frontend-focused, this matters a LOT.
+
+Implement manually:
+
+Promise.all
+debounce
+throttle
+polyfills
+event emitter
+retry APIs
+async queue
+
+These are gold for React/frontend interviews.
+
+Phase 3 — Build things manually
+
+This is where you become dangerous in JavaScript.
+
+Implement these from scratch:
+
+Beginner
+custom map
+custom filter
+custom reduce
+Intermediate
+debounce
+throttle
+currying
+memoization
+deep clone
+Advanced
+Promise polyfills
+event emitter
+LRU cache
+virtual DOM concept
+mini React hooks understanding
+For YOU specifically
+
+Since your goal is:
+
+React/Next.js/frontend roles
+building your food app
+stronger frontend interviews
+
+Focus MORE on:
+
+Practical JS + Async JS + Browser behavior
 
