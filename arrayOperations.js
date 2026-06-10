@@ -1,30 +1,82 @@
-// find maximun in an array
-let findMax = [10,37,3766,56, 664,773] ;
-let max = findMax[0];
-for(let i=1; i<findMax.length; i++){
-    if(findMax[i] > max){
-        max = findMax[i];
-    }
-}
-console.log(max); // time complexity 0(n) // space complexity 0(1)
+/*
+Recommended 1-week plan
 
-console.log(Math.max(...findMax)); // time complexity 0(n), space 0(n)
+Instead of ALL problems:
 
-const maxi = findMax.reduce((acc, curv) => {
-    curv > acc ? acc = curv : curv
-    return acc;
-})
-console.log(maxi) // time complexity 0(n), space 0(1)
+Master 1 pattern group at a time.
 
-// sum of array
+Day 1 — Arrays + Traversal
 
-let findSum = [44,56,334,566,678,7889,77];
-let sum = findSum.reduce((a,c)=> {
-    a=a+c;
-    return a;
-}
-)
-console.log(sum); // time complexity 0(n) / space complexity 0(1)
+Do:
+
+max/min
+reverse
+move zeroes
+second largest
+
+Goal:
+
+Day 2 — Objects / Frequency Counter
+
+Do:
+
+duplicates
+remove duplicates
+frequency map
+anagrams
+first non-repeating char
+
+VERY important day.
+
+Day 3 — Two Pointers
+
+Do:
+
+palindrome
+pair sum
+merge sorted arrays
+remove duplicates sorted array
+
+Day 4 — Sliding Window
+
+Do:
+
+max sum subarray
+longest substring
+fixed window problems
+Day 5 — map/filter/reduce
+
+Do:
+
+transformations
+grouping
+totals
+reduce-based frequency
+
+Important for React.
+
+Day 6 — Recursion + Closures
+
+Do:
+
+flatten array
+recursive sum
+recursion tracing
+closure problems
+
+Day 7 — Async JavaScript
+
+VERY important for frontend.
+
+Do:
+
+debounce
+throttle
+Promise.all
+event loop tracing
+async/await
+
+*/
 
 //Create a function that removes duplicate values from the array / without using set.
 
